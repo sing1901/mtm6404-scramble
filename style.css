@@ -1,0 +1,127 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .game-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .game-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .game-message {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .normal {
+    background-color: #e2e3e5;
+    color: #383d41;
+  }
+  
+  .scrambled-word {
+    font-size: 2rem;
+    margin: 20px 0;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button {
+    border-radius: 0 4px 4px 0;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .disabled:hover {
+    background-color: #ccc;
+  }
+  
+  .game-over {
+    margin-top: 20px;
+  }
+  
+  .game-over h2 {
+    margin-bottom: 10px;
+  }
+  
+  .game-over p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .game-over button {
+    border-radius: 4px;
+  }
